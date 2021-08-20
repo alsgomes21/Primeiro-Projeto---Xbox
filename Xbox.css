@@ -1,0 +1,114 @@
+body {font-family: 'Cinzel', serif;}
+
+header {
+	background: green;
+	width: 100%;
+	margin: auto}
+
+
+.caixa {position: relative; }
+
+nav {position: absolute;
+top: 25px; }
+
+nav li {
+	display: inline;
+	margin: 0 0 0 400px;}
+
+nav a {text-transform: uppercase;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;}
+
+.worlds-await {background: #000000;} 
+
+.gamestudios {width: 900px; width: 100%; height: 280px}
+
+.titulo-principal {padding: 1em 0;
+font-size: 32px;
+text-transform: uppercase;
+color: green;
+font-weight: bold;
+text-shadow: 1px 1px green;
+text-align: center}
+
+
+.worlds-await p {padding: 20px;
+	max-width: 70%;
+    margin: 0 auto; }
+
+.worlds-await {color: #e6f0e6; 
+	max-width: 100%;
+    margin: 0 auto;}
+
+.primeiro {width:65%; justify-content: center ; display: flex; margin: 0 auto;}
+
+.first p {padding: 20px;
+	max-width: 70%;
+	margin: 0 auto; 
+	color: #ffffff;}
+
+.container { display: flex; justify-content: center; padding: 20px; margin: 0 auto; }
+
+.Second360 {width:70%; margin: 0 auto; display: flex; padding: 20px;justify-content: center;}
+
+.video {display: flex; justify-content: center; padding: 20px; margin: 0 auto; } 
+
+#anel {width:70%; margin: 0 auto; display: flex; padding: 20px;justify-content: center;}
+
+.begingradient {background: linear-gradient(black,gray,black);}
+
+.gamestudios2 {width: 900px; width: 100%; height: 280px; background: black;}
+
+.video2 {display: flex; justify-content: space-around;}
+
+.
+
+
+
+/*Página Serviço*/
+
+.gamepass {width: 100%; 
+	height: 450px}
+
+.pacote {display: flex; 
+	align-items: center;}
+
+.gamepass3{width: 420px; 
+	height: 250px;
+	padding: 1em 0 0 0;
+	}
+
+.gamepass3:hover {box-shadow: 0.2em 0.2em black; transition: 2s}
+
+.pack  {font-size: 18px; }
+
+.lista {position: static; 
+	margin: 0 0 0 2em; 
+	line-height: 2.0; 
+	padding: 1em 0 0 0; 
+	color: white}
+
+.eaplay {width: 100%; 
+	height: 400px;padding: 0 0 30px 0}
+
+.backgradient {background: linear-gradient(black, gray)}
+
+.colorp p {color: white;
+	padding: 20px;
+	max-width: 70%;
+margin: 0 auto}
+
+@media screen and (max-width: 650px) {
+    .pacote {
+        flex-direction: column;
+    }
+	nav li {
+		display: inline;
+		margin: 0 0 0 220px;}
+	
+	.video2 {
+		flex-direction: column; align-items: center;
+	}
+}
+
